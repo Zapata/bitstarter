@@ -4,8 +4,6 @@ cd $HOME
 
 # Base install from course:
 curl https://raw.github.com/startup-class/setup/master/setup.sh | sh
-npm install cheerio
-npm install commander
 
 #Initialize Permissions
 if [ ! -e .ssh/id_rsa.pub ]; then
