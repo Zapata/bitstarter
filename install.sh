@@ -4,6 +4,8 @@ cd $HOME
 
 # Base install from course:
 curl https://raw.github.com/startup-class/setup/master/setup.sh | sh
+npm install cheerio
+npm install commander
 
 #Initialize Permissions
 if [ ! -e .ssh/id_rsa.pub ]; then
@@ -43,3 +45,5 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 heroku login
 heroku keys:add
 
+# Other cool stuff
+sudo apt-get install colordiff
