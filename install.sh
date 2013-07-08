@@ -25,6 +25,12 @@ done
 git config --global user.name "Marco Tessari"
 git config --global user.email marco.tessari@gmail.com
 
+# Move to forked dotfiles
+cd dotfiles
+git remote rename origin upstream
+git remote add -f origin git@github.com:Zapata/dotfiles.git
+git pull origin master
+
 # Initialise Project repository.
 if [ ! -d startup-coursera ]; then
         git clone git@github.com:Zapata/startup-coursera.git
