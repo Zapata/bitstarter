@@ -1,0 +1,8 @@
+{
+  "globals": 
+  { 
+    "require": false,
+    "process": false,
+    "console": false
+  }
+}
