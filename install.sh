@@ -24,6 +24,8 @@ done
 
 git config --global user.name "Marco Tessari"
 git config --global user.email marco.tessari@gmail.com
+# Force to track a remote branch.
+git config --global push.default upstream
 
 # Move to forked dotfiles
 cd dotfiles
